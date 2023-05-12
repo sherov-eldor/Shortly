@@ -1,20 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project</title>
 
     <!-- GOOGLE FONTS -->
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- STYLES -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site__header">
+        <div class="site__header-container container">
+            <a href="#" class="site__logo-link">
+                <img src="./images/shortly-logo.svg" alt="site logo" class="site__logo-img" width="120" height="33">
+            </a>
+            <nav class="site__nav">
+                <ul class="site__nav-list">
+                    <li class="site__nav-item">
+                        <a href="#" class="site__nav-link">Features</a>
+                    </li>
+                    <li class="site__nav-item">
+                        <a href="#" class="site__nav-link">Pricing</a>
+                    </li>
+                    <li class="site__nav-item">
+                        <a href="#" class="site__nav-link">Resources</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="site__header-actions">
+                <button class="btn btn__auth-login">Login</button>
+                <button class="btn btn__auth-register">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <section class="hero">
+            <div class="hero__container container">
+                <div class="hero__typography">
+                    <h2 class="hero__heading">
+                        More than just <br> shorter links
+                    </h2>
+                    <p class="hero__text">
+                        Build your brand’s recognition and get detailed insights on how your links are performing.
+                    </p>
+                    <button class="btn hero__btn">
+                        Get Started
+                    </button>
+                </div>
+                <img class="hero__img" src="./images/working_with_computer.png" alt="person working on computer" width="733" height="482" srcset="./images/working_with_computer.png 1x, ./images/working_with_computer@2x.png 2x">
+            </div>
+        </section>
+    </div>
 
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
