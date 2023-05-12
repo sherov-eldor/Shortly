@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,16 +10,14 @@
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet" />
 
     <!-- STYLES -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="site__header">
         <div class="site__header-container container">
             <a href="#" class="site__logo-link">
@@ -45,6 +44,9 @@
     </header>
 
     <div class="main-content">
+
+        <!-- HERO SECTION -->
+
         <section class="hero">
             <div class="hero__container container">
                 <div class="hero__typography">
@@ -58,11 +60,187 @@
                         Get Started
                     </button>
                 </div>
-                <img class="hero__img" src="./images/working_with_computer.png" alt="person working on computer" width="733" height="482" srcset="./images/working_with_computer.png 1x, ./images/working_with_computer@2x.png 2x">
+                <img class="hero__img" src="./images/working_with_computer.png" alt="person working on computer"
+                    width="733" height="482"
+                    srcset="./images/working_with_computer.png 1x, ./images/working_with_computer@2x.png 2x">
             </div>
         </section>
+
+        <!-- LINK SECTION -->
+
+        <section class="link">
+            <div class="link__container container">
+                <div class="link__inner">
+                    <form class="link__form">
+                        <div class="form__group">
+                            <input class="link__input" type="text" name="link" placeholder="Shorten a link here...">
+                            <span class="link__invalid-msg">Please add a link</span>
+                        </div>
+                        <button class="btn link__btn">Shorten It!</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURES -->
+
+        <section class="feature">
+            <div class="feature__container container">
+                <div class="feature__info">
+                    <h2 class="feature__heading">Advanced Statistics</h2>
+                    <p class="feature__text">
+                        Track how your links are performing across the web with <br> our advanced statistics dashboard.
+                    </p>
+                </div>
+                <ul class="feature__list">
+                    <li class="feature__item">
+                        <div class="feature__img-wrapper">
+                            <img class="feature__img" src="./images/speed.png" alt="" width="40" height="40"
+                                srcset="./images/speed.png 1x, ./images/speed@2x.png 2x">
+                        </div>
+                        <div class="feature__item-info">
+                            <h3 class="feature__item-heading">
+                                Brand Recognition
+                            </h3>
+                            <p class="feature__item-text">
+                                Boost your brand recognition with each click. Generic links don’t mean a thing. Branded
+                                links help instil confidence in your content.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="feature__item">
+                        <div class="feature__img-wrapper">
+                            <img class="feature__img" src="./images/charts.png" alt="" width="40" height="40"
+                                srcset="./images/charts.png 1x, ./images/charts@2x.png 2x">
+                        </div>
+                        <div class="feature__item-info">
+                            <h3 class="feature__item-heading">
+                                Detailed Records
+                            </h3>
+                            <p class="feature__item-text">
+                                Gain insights into who is clicking your links. Knowing when and where people engage with
+                                your content helps inform better decisions.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="feature__item">
+                        <div class="feature__img-wrapper">
+                            <img class="feature__img" src="./images/pens.png" alt="" width="40" height="40"
+                                srcset="./images/pens.png 1x, ./images/pens@2x.png 2x">
+                        </div>
+                        <div class="feature__item-info">
+                            <h3 class="feature__item-heading">
+                                Fully Customizable
+                            </h3>
+                            <p class="feature__item-text">
+                                Improve brand awareness and content discoverability through customizable links,
+                                supercharging audience engagement.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- NOTIFICATION -->
+
+        <div class="notification">
+            <div class="notification__container container">
+                <h2 class="notification__heading">Boost your links today</h2>
+                <button class="btn notification__btn">Get Started</button>
+            </div>
+        </div>
+
     </div>
 
+    <footer class="site__footer">
+        <div class="footer__container container">
+            <a href="#" class="site__logo-link">
+                <img class="site__logo-img" src="./images/shortly-logo-white.svg" alt="site logo" width="120"
+                    height="33">
+            </a>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <ul class="footer__list-col">
+                        <li class="footer__item-lead">
+                            Features
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__item-link">Link Shortening</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__item-link">Branded Links</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__item-link">Analytics</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer__item">
+                    <ul class="footer__list-col">
+                        <li class="footer__item-lead">
+                            Resources
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__item-link">Blog</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__item-link">Developers</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__item-link">Support</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer__item">
+                    <ul class="footer__list-col">
+                        <li class="footer__item-lead">
+                            Company
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__item-link">About</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__item-link">Our Team</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__item-link">Careers</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__item-link">Contact</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="footer__socials">
+                <li class="footer__social">
+                    <a href="" class="footer__social-link">
+                        <img src="./images/facebook.svg" alt="facebook" class="footer__social-img">
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="" class="footer__social-link">
+                        <img src="./images/twitter.svg" alt="twitter" class="footer__social-img">
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="" class="footer__social-link">
+                        <img src="./images/pinterest.svg" alt="pinterest" class="footer__social-img">
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="" class="footer__social-link">
+                        <img src="./images/instagram.svg" alt="instagram" class="footer__social-img">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </footer>
+
     <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>
