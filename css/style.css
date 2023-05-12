@@ -524,9 +524,18 @@ ul {
 
 .footer__social-link {
   display: block;
+  color: #fff;
 }
 
-.footer__social-img {
+.footer__social-link:hover{
+  opacity: 0.8;
+}
+
+.footer__social-link:active{
+  color: #2bd0d0;
+}
+
+.footer__socials-logo {
   display: block;
 }
 
